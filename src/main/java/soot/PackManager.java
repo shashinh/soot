@@ -231,8 +231,8 @@ public class PackManager {
     addPack(p = new CallGraphPack("cg"));
     {
       p.add(new Transform("cg.cha", CHATransformer.v()));
-      p.add(new Transform("cg.spark", SparkTransformer.v()));
-      p.add(new Transform("cg.paddle", PaddleHook.v()));
+      //p.add(new Transform("cg.spark", SparkTransformer.v()));
+      //p.add(new Transform("cg.paddle", PaddleHook.v()));
     }
 
     // Whole-Shimple transformation pack
